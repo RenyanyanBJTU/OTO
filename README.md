@@ -11,7 +11,8 @@ Notice: Before you establishing a build environment, you'd better make your Linu
 ```
 git clone https://github.com/openthos/OTO.git
 #info: clone repo to your local computer, make sure you installed git before this command, 
-# if not,try ' sudo apt-get install git ' to install git.
+#if not,try ' sudo apt-get install git ' to install git, 
+#and use git config --global user.name(or email) "your name(or email)" to config your information
 
 cd OTO
 export PATH=$PATH:$PWD
