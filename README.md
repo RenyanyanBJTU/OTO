@@ -36,6 +36,6 @@ cd WORK_DIR
 source build/envsetup.sh
 lunch $target_build
 #eg: lunch android_x86_64-eng
-make iso_img -j$P
+m iso_img -j$P
 #out directory: out/target/product/ and $P depend on the performance of your computer
 ```
